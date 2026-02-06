@@ -1,0 +1,1 @@
+This project implements a Retrieval-Augmented Generation (RAG) system using Langchain. It involves loading documents from PDF files, chunking the text, generating embeddings with HuggingFace's all-MiniLM-L6-v2 model, storing these embeddings in a Chroma vector database, and finally, using an Ollama-hosted llama3 model to answer user queries based on the retrieved context.
